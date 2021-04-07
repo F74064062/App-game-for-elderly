@@ -1,0 +1,201 @@
+/* --------------div class------------ */
+.top_bar{
+    position: relative;
+    height: 200px;
+}
+.change_page{
+    position: relative;
+    font-family: jf-open;
+}
+
+.container{
+    position: relative;
+    text-align: center;
+    font-family: jf-open;
+}
+
+/* -----------top bar icon--------------- */
+.first{
+    position: absolute;
+    right:33%;
+    top:4%;
+}
+.last{
+    position: absolute;
+    right:7%;
+    top:4%;
+}
+.index{
+    position: absolute;
+    right:20%;
+    top:4%;
+}
+
+.first:hover{
+    transform :scale(1.1);
+}
+.last:hover{
+    transform :scale(1.1);
+}
+.index:hover{
+    transform :scale(1.1);
+}
+
+/* -----------------page icon---------------- */
+.inner{
+    width: 80%;
+    height: auto;
+    top : 95%;
+
+}
+.asset1{
+    position: absolute;
+    left : 14%;
+    top : 30%;
+    width: 25%;
+    height: auto;
+}
+.asset2{
+    position: absolute;
+    left : 37%;
+    top : 50%;
+    width: 25%;
+    height: auto;
+}
+.asset3{
+    position: absolute;
+    left : 60%;
+    top : 70%;
+    width: 25%;
+    height: auto;
+}
+
+#content_title {
+    position: absolute;
+    left : 14%;
+    top : 30%;
+    width: 25%;
+    height: auto;
+}
+#content_bg {
+    position: absolute;
+    width: 45%;
+    left: 40%;
+    top: 45%;
+}
+#content {
+    position: absolute;
+    font-size: 3vh;
+    height: 8%;
+    width: 40%;
+    top: 13%;
+    margin: 43%;
+}
+#intro {
+    position: absolute;
+    bottom: 10%;
+    left: 25%;
+    height: auto;
+    width: 40%;
+}
+#photo {
+    border-radius: 50%; 
+    width:25%;
+    top:23%; 
+    left:20%; 
+    position: absolute;
+}
+#name_txt {
+    color: black;
+    position: absolute;
+    font-size:5vw;
+    top: 50%;
+    left: 45%;
+}
+
+/* ----------------text------------------ */
+
+.title{
+    color: black;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    letter-spacing:15px;
+    font-size:7vw;
+
+}
+.target{
+    color: black;
+    position: absolute;
+    top: 37%;
+    left: 19%;
+    letter-spacing:15px;
+    font-size:7vw;
+}
+
+#goal_txt{
+    color: black;
+    position: absolute;
+    top: 37%;
+    left: 19%;
+    letter-spacing:15px;
+    font-size:7vw; 
+}
+#why_txt{
+    color: black;
+    position: absolute;
+    top: 37%;
+    left: 14%;
+    font-size:7vw; 
+}
+
+#how_txt{
+    color: black;
+    position: absolute;
+    top: 37%;
+    left: 19%;
+    letter-spacing:15px;
+    font-size:7vw; 
+}
+
+.why{
+    color: black;
+    position: absolute;
+    top: 56%;
+    left: 37%;
+    font-size:7vw;
+}
+
+.how{
+    color: black;
+    position: absolute;
+    top: 76%;
+    left: 63%;
+    letter-spacing:15px;
+    font-size:7vw;
+}
+
+.page_number{
+    color: black;
+    position: absolute;
+    left: 46.5%;
+    letter-spacing:15px;
+    font-size:7vw;
+}
+
+/* --------------bottom icon------------------ */
+.next{
+    position: absolute;
+    right:25%;
+}
+.prev{
+    position: absolute;
+    left:25%;
+}
+.next:hover{
+    transform :scale(1.1);
+}
+.prev:hover{
+    transform :scale(1.1);
+}
+/* --------------------------------------- */

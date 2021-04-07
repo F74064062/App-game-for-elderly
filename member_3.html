@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+    <meta charset=“utf-8”>
+    <link rel="stylesheet" href = "next_about.css">
+    <style>
+        @font-face {
+            font-family: jf-open;
+            src: url("jf-openhuninn-1.1.ttf");
+        }
+        .name{
+            color: black;
+            position: absolute;
+            font-size:5vw;
+        }
+        #intro_txt{
+            color: black;
+            position: absolute;
+            top: 70%;
+            left: 31%;
+            font-size:3vw; 
+        }
+        #intro_txt2{
+            color: black;
+            position: absolute;
+            top: 70%;
+            left: 27%;
+            font-size:3vw; 
+        }
+    </style>
+    </head>
+    <body>
+        <div class="top_bar">
+            <img src = "object/front.png" class = "first" onclick="location.href='about_us.html'">
+            <img src = "object/index.png" class = "index" onclick="location.href='zoom_shelf.html'">
+            <img src = "object/last.png" class = "last"onclick="location.href='final.html'" >
+        </div>
+        <div class = "container">
+            <div class = "title" ><b>成員介紹</b></div>
+            <img src = "object/inner.png" class = "inner">
+            <img src = "object/hung.jpg" style = "border-radius: 50%; width:25%;top:23%; left:20%; position: absolute;"id ='member1'>
+            <img src = "object/chu.jpg" style = "border-radius: 50%; width:25%;top:60%; left:20%; position: absolute;"id ='member2'>
+            <div class = "name" style = "top: 50%;left: 45%;" id = 'need_hide'><b>/ 黃冠淳</b></div>
+            <div class = "name" style = "top: 88%;left: 45%;"><b>/ 邱明叡</b></div>
+            <div id="page1"></div>
+        </div>
+        <div class =  "change_page">
+            <img src="object/next.png" class ="next" onclick="location.href='member_4.html'">
+            <img src="object/prev.png" class ="prev" onclick="location.href='member_2.html'">
+            <div class = "page_number"><b>04</b></div>
+        </div>
+        <script src="m3.js"></script>
+    </body>
+
+</html>

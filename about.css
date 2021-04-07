@@ -1,0 +1,40 @@
+.top_bar{
+    position: relative;
+    height: 25px;
+}
+
+.last{
+    position: absolute;
+    right:7%;
+    top:4%;
+}
+.index{
+    position: absolute;
+    right:20%;
+    top:4%;
+}
+
+.next{
+    position: absolute;
+    right:30%;
+}
+.prev{
+    position: absolute;
+    left:30%;
+}
+
+.change_page{
+    position: relative;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1300px;
+    
+}
+
+.next:hover{
+    transform :scale(1.1);
+}

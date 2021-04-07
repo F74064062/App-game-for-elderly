@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+    <meta charset=“utf-8”>
+    <style>
+    .container {
+    position: relative;
+    text-align: center;
+    line-height: 0;
+    }
+    
+    
+    .wall_floor_size{
+    width: 100%;
+    height: auto;
+    }
+
+    .wall_size{
+        width: 100%;
+        height: auto;
+    }
+    .shelf{
+        position: absolute;
+        top: 46%;
+        left: 15%;
+        width: 65%;
+        height: auto;
+    }
+
+  
+    </style>
+    </head>
+    <body>  
+    <div class = "container">
+        <img src ="object/wall.png" class="wall_size" >
+        <img src = "object/floor.png"class="wall_floor_size">
+        <img src = "object/shelf.png"class= "shelf" onclick="location.href='zoom_shelf.html'">
+    </div>
+    </body>
+</html>
